@@ -1,0 +1,45 @@
+.text {    
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    margin: 5px;
+    padding: 0px;
+}
+
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: none;
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 0px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    background-color: aquamarine;
+    padding: 3px;
+}
+
+li:hover {
+    background-color: rgb(99, 197, 164);
+}
+
+.header {
+    margin-left: -30px;
+}
+
+body {
+    background-image: url(background.png);
+    background-repeat: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ad {
+    position: absolute;
+    top: 15px;
+    left: 78%;
+}
+
+.copyright {
+    position: absolute;
+    top: 96%;
+    left: 0%;
+}
